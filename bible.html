@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>성경 읽기 앱</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="todayDate"></div>
+    <div id="videoContainer">
+        <iframe id="youtubeVideo" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <input type="checkbox" id="watchedCheckbox" onclick="toggleWatchedStatus()"> 오늘의 영상 시청 완료
+
+    <div>
+        <textarea id="commentBox" placeholder="여기에 코멘트 입력..."></textarea>
+    </div>
+    <div id="calendar"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

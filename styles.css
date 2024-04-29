@@ -1,0 +1,36 @@
+/* 기본파트 */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+#videoContainer {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+/* 달력파트 */
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.completed {
+    background-color: #aaffaa;
+    /* 완료된 날짜는 녹색으로 표시 */
+}
